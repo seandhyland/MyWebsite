@@ -77,7 +77,6 @@ twoway (scatter exhedge exsptr if exsptr>0) ///
 * dispersion in the raw variable. This can be seen in the graph. 
 su exhedge if exsptr<=0
 su exhedge if exsptr>0
-tw (hist exhedge if exsptr<=0, lc(blue) fc(none)) ( hist exhedge if exsptr>0)
 
 ********************************************************************************
 

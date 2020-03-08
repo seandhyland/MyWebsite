@@ -23,6 +23,9 @@ log using "rec6.log", replace // writes results to a text file
 ********************************************************************************
 
 use "https://wps.pearsoned.com/wps/media/objects/11422/11696965/aee/TeachingRatings.dta", clear
+use "D:/UN3412_Intro_to_Econometrics/Recitations/Recitation 6/TeachingRatings.dta" 
+
+
 
 *(a)
 eststo m1_a: reg course_eval beauty intro onecredit female minority nnenglish, r
